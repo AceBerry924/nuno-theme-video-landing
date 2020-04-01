@@ -44,8 +44,20 @@
             <li class="nav-item">
               <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#pricing">Pricing</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Pricing</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item" href="#pricing">Basic</a>
+                  <a class="dropdown-item" href="#pricing">Pro</a>
+                  <a class="dropdown-item dropdown-toggle" href="#pricing">Premium</a>
+                  <ul class="dropdown-menu no-space-top">
+                    <li><a class="dropdown-item" href="#">Option 1</a></li>
+                    <li><a class="dropdown-item" href="#">Option 2</a></li>
+                  </ul>
+                </li>
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#team">Team</a>
@@ -69,11 +81,13 @@
       <div class="video-wrap">
         <div id="video">
           <video id="bgvid" playsinline autoplay muted loop>
-            <source src="">
+            <source src="assets/video/fast-typing.mp4" type="video/mp4">
+            <source src="assets/video/fast-typing.webm" type="video/webm">
           </video>
         </div>
       </div>
     </div>
+
     <!-- Landing Page Image -->
     <div class="landing">
       <div class="home-wrap">
